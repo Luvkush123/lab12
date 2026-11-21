@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store - Login - Luvkush Sharma (24BTRSN022)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Online Book Store</h1>
+        <p>Web Technology Laboratory - Experiment 12 &bull; Luvkush Sharma (24BTRSN022)</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html" class="active">Login</a></li>
+            <li><a href="register.html">Registration</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="cart.html">Cart (<span class="cart-count-badge">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" style="max-width: 500px;">
+        <h2>User Login</h2>
+        
+        <form onsubmit="return validateLogin(event)">
+            <div class="form-group">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="username" placeholder="Enter username">
+            </div>
+
+            <div class="form-group">
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" placeholder="Enter password">
+            </div>
+
+            <div style="margin-top: 20px;">
+                <button type="submit" class="btn">Login</button>
+                <button type="reset" class="btn btn-danger" style="margin-left: 8px;">Reset</button>
+            </div>
+        </form>
+
+        <p style="margin-top: 20px; font-size: 14px;">
+            Don't have an account? <a href="register.html" style="color: #003366; font-weight: bold;">Register here</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Online Book Store | Luvkush Sharma (24BTRSN022) | College Web Programming Lab 12</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

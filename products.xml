@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <id>101</id>
+        <name>Web Technologies</name>
+        <author>Luvkush Sharma (24BTRSN022)</author>
+        <category>Computer Science</category>
+        <price>450</price>
+    </product>
+    <product>
+        <id>102</id>
+        <name>Core Java Volume I</name>
+        <author>Cay S. Horstmann</author>
+        <category>Computer Science</category>
+        <price>550</price>
+    </product>
+    <product>
+        <id>103</id>
+        <name>Database System Concepts</name>
+        <author>Abraham Silberschatz</author>
+        <category>Computer Science</category>
+        <price>600</price>
+    </product>
+    <product>
+        <id>104</id>
+        <name>Data Structures and Algorithms</name>
+        <author>Mark Allen Weiss</author>
+        <category>Computer Science</category>
+        <price>500</price>
+    </product>
+    <product>
+        <id>105</id>
+        <name>Operating System Concepts</name>
+        <author>Silberschatz, Galvin</author>
+        <category>Computer Science</category>
+        <price>520</price>
+    </product>
+    <product>
+        <id>106</id>
+        <name>Computer Networks</name>
+        <author>Andrew S. Tanenbaum</author>
+        <category>Computer Science</category>
+        <price>580</price>
+    </product>
+</products>

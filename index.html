@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store - Home - Luvkush Sharma (24BTRSN022)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Online Book Store</h1>
+        <p>Web Technology Laboratory - Experiment 12 &bull; Luvkush Sharma (24BTRSN022)</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Registration</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="cart.html">Cart (<span class="cart-count-badge">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Welcome to Online Book Store</h2>
+        <p>This web application is designed for online purchasing using <strong>HTML, CSS, JavaScript</strong>, and <strong>XML</strong>.</p>
+        
+        <br>
+        <p>You can perform the following actions:</p>
+        <ul style="margin-left: 25px; margin-top: 10px; line-height: 1.8;">
+            <li><strong>Register:</strong> Create a new user account with client-side JavaScript form validation.</li>
+            <li><strong>Login:</strong> Sign in with username and password verification.</li>
+            <li><strong>Catalogue:</strong> Browse books dynamically retrieved from an <code>products.xml</code> file.</li>
+            <li><strong>Cart:</strong> Add books to your shopping cart, review total cost, and place an order.</li>
+        </ul>
+
+        <br>
+        <h3>Featured Categories</h3>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>Web Technologies, Java, Operating Systems, Algorithms</td>
+                <td><a href="catalogue.html" class="btn btn-sm">View Books</a></td>
+            </tr>
+            <tr>
+                <td>Information Science</td>
+                <td>Database Systems, Computer Networks, Software Engineering</td>
+                <td><a href="catalogue.html" class="btn btn-sm">View Books</a></td>
+            </tr>
+        </table>
+
+        <div style="text-align: center; margin-top: 25px;">
+            <a href="catalogue.html" class="btn">Go to Product Catalogue &rarr;</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Online Book Store | Luvkush Sharma (24BTRSN022) | College Web Programming Lab 12</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

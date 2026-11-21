@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store - Registration - Luvkush Sharma (24BTRSN022)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Online Book Store</h1>
+        <p>Web Technology Laboratory - Experiment 12 &bull; Luvkush Sharma (24BTRSN022)</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html" class="active">Registration</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="cart.html">Cart (<span class="cart-count-badge">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" style="max-width: 550px;">
+        <h2>User Registration</h2>
+        
+        <form onsubmit="return validateRegister(event)">
+            <div class="form-group">
+                <label for="reg-name">Full Name:</label>
+                <input type="text" id="reg-name" name="name" placeholder="Enter full name">
+            </div>
+
+            <div class="form-group">
+                <label for="reg-email">Email Address:</label>
+                <input type="email" id="reg-email" name="email" placeholder="e.g. student@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="reg-phone">Phone Number (10 Digits):</label>
+                <input type="text" id="reg-phone" name="phone" placeholder="e.g. 9876543210" maxlength="10">
+            </div>
+
+            <div class="form-group">
+                <label for="reg-password">Password (Min 6 Characters):</label>
+                <input type="password" id="reg-password" name="password" placeholder="Enter password">
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" id="gender-male" name="gender" value="Male" checked> Male
+                <input type="radio" id="gender-female" name="gender" value="Female"> Female
+            </div>
+
+            <div style="margin-top: 20px;">
+                <button type="submit" class="btn">Register</button>
+                <button type="reset" class="btn btn-danger" style="margin-left: 8px;">Reset</button>
+            </div>
+        </form>
+
+        <p style="margin-top: 20px; font-size: 14px;">
+            Already have an account? <a href="login.html" style="color: #003366; font-weight: bold;">Login here</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Online Book Store | Luvkush Sharma (24BTRSN022) | College Web Programming Lab 12</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
